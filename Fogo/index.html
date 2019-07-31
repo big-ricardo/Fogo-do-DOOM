@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <style>
+            table{
+                border-collapse: collapse;
+                border: 1px solid #000;
+		        margin-top: 10px;
+            }
+
+            td{
+                width: 50px;
+                height: 50px;
+                border: 1px solid #000;
+                text-align: center;
+                vertical-align: center;
+                font-family: monospace;
+                font-size: 18px;
+                position: relative;
+            }
+
+            td.pixel{
+                width: 4px;
+                height: 4px;
+                border: 0;
+            }
+
+            .pixel-index{
+                font-size: 10px;
+                display: inline-block;
+                position: absolute;
+                top: 2px;
+                right: 2px;
+                color: #999;
+            }
+
+            button{
+                
+                margin-top: 10px;
+                margin-left: 65px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="fogoTabela"></div>
+        <div id="botao">
+            <button onclick="acende()" value="Acender">Acender</button>
+        </div>
+        <h4></h4>
+        <script src="fogo.js"></script>
+    </body>
+</html>
